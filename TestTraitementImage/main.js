@@ -5,3 +5,15 @@
  */
 
 
+var cvlib = require('./opencvtest');
+var nodeDv = require('./nodeDv');
+
+console.log(typeof cvlib.openCvTest);
+//cvlib.openCvTest();
+
+nodeDv.testNodeDv();
+
+
+
+
+
